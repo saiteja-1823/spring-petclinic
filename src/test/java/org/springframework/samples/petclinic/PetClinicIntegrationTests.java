@@ -48,7 +48,7 @@ class PetClinicIntegrationTests {
 
 		driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
 
-		driver.quit();
+		// driver.quit();
 	}
 
 }
