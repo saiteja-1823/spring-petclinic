@@ -41,7 +41,7 @@ class PetClinicIntegrationTests {
 		options.addArguments("--headless");
 		options.addArguments("--remote-allow-origins=*");
 		WebDriver driver = new ChromeDriver(options);
-		driver.get("http://172.31.18.185:" + port);
+		driver.get("http://localhost:" + port);
 
 		String title = driver.getTitle();
 		assertEquals("PetClinic :: a Spring Framework demonstration", title);
